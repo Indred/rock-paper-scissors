@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
-    <script type="text/javascript" src="script.js   "></script> 
     <link rel="stylesheet"  href="style.css"> 
 </head>
 <body>
@@ -14,29 +13,31 @@
         </header>
         <div class="scoreboard_container">
             <div id="user_score">
-                <p>Player Score: </p>
+                <p>Player Score: 0</p>
             </div>
             <div id="computer_score">
-                <p>Computer Score: </p>
+                <p>Computer Score: 0</p>
             </div>
         </div>
         <div class="game_buttons">
             Your Move:
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
+            <button id="Rock">Rock</button>
+            <button id="Paper">Paper</button>
+            <button id="Scissors">Scissors</button>
         </div>
         <div class="game_container">
-            <div class="user_choice">
-                <p>Player Choice: </p>
+            <div id="user_choice">
+                <p>Player Choice: None</p>
             </div>
-            <div class="computer_choice">
-                <p>Computer Choice: </p>
+            <div id="computer_choice">
+                <p>Computer Choice: None</p>
             </div>
-            <div class="game_result">
-                <p>Result: </p>
+            <div id="game_result">
+                <p>Result: None</p>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script> 
 </body>
 </html>
