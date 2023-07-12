@@ -75,3 +75,14 @@ h3 {
     border: solid 4px black;
     border-radius: 6px;
 }
+
+#result {
+    font-weight: bold;
+}
+
+.reset-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
