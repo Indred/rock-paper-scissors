@@ -9,49 +9,69 @@ body {
     border: 1px solid darkred; 
 } */
 
-.everything_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    padding: 8px;
-}
 
-.header {
+header {
     padding: 8px;
     font-size: 28px;
+    text-align: center; 
 }
 
-.scoreboard_container {
+.container {
     display: flex;
-    gap: 32px;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-.game_buttons {
-    display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap: 32px;
-    padding: 8px;
-}
-
-.game_container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    padding: 8px;
-    font-size: 20px;
-    font-weight: bold;
+    gap: 56px;
 }
 
 button {
-    background-color: #008080;
-    border-color: #008080;
-    color: white;
+    /* background-color: #008080;
+    border-color: #008080; */
+    background-color: white;
+    border-color: white;
     border-radius: 6px;
-    padding: 6px 12px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.player, .computer {
+    padding: 36px;
+    font-size: 36px;
+    border: solid 4px black;
+    background-color: #009b9b;
+    border-radius: 6px;;
+}
+
+
+.player-header, .computer-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+h3 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.player-emoji, .computer-emoji {
+    font-size: 48px;
+    border: solid 4px black;
+    border-radius: 6px;
+}
+
+.player-emoji, #player-score {
+    background-color: lightgreen;
+}
+
+.computer-emoji, #computer-score {
+    background-color: lightcoral;
+}
+
+#player-score, #computer-score {
+    font-size: 48px;
+    border: solid 4px black;
+    border-radius: 6px;
 }

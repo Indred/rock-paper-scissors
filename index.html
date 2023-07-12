@@ -7,33 +7,33 @@
     <link rel="stylesheet"  href="style.css"> 
 </head>
 <body>
-    <div class="everything_container">
-        <header class="header">
-            <h1>Rock, Paper, Scissors</h1>
-        </header>
-        <div class="scoreboard_container">
-            <div id="user_score">
-                <p>Player Score: 0</p>
+    <header>
+        <h1>Rock, Paper, Scissors</h1>
+        <h5>BEST OF 3</h5>
+    </header>
+    <div class="container">
+        <div class="player">
+            <h3 id="player-type">PLAYER</h3>
+            <div class="player-header">
+                <div class="player-emoji">🧑</div>
+                <div id="player-score">0️</div>
             </div>
-            <div id="computer_score">
-                <p>Computer Score: 0</p>
+            <div class="player-buttons">
+                <button id="player-rock">ROCK 🤜</button>
+                <button id="player-paper">PAPER 🤚</button>
+                <button id="player-scissors">SCISSORS ✌️</button>
             </div>
         </div>
-        <div class="game_buttons">
-            Your Move:
-            <button id="Rock">Rock</button>
-            <button id="Paper">Paper</button>
-            <button id="Scissors">Scissors</button>
-        </div>
-        <div class="game_container">
-            <div id="user_choice">
-                <p>Player Choice: None</p>
+        <div class="computer">
+            <h3 id="computer-type">COMPUTER</h3>
+            <div class="computer-header">
+                <div class="computer-emoji">🤖</div>
+                <div id="computer-score">0️</div>
             </div>
-            <div id="computer_choice">
-                <p>Computer Choice: None</p>
-            </div>
-            <div id="game_result">
-                <p>Result: None</p>
+            <div class="computer-buttons">
+                <button id="computer-rock">ROCK 🤛</button>
+                <button id="computer-paper">PAPER 🤚</button>
+                <button id="computer-scissors">SCISSORS ✌️</button>
             </div>
         </div>
     </div>
